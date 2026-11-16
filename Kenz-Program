@@ -1,0 +1,261 @@
+
+print("=" * 40)
+print(" Sample Kenz Program ")
+print("=" * 40)
+
+print("\nChoice topic you want to learn")
+print("[1] - Prelim")
+print("[2] - Mid Term")
+print("[3] - Finals")
+
+topic = input("Choose topic what term you want to know: ")
+if topic == "1":
+    print("\nintroduction to programming")
+    print("The Topic in prelim")
+    print("[1] - Programming Language")
+    print("[2] - why learn PYTHON?")
+    print("[3] - What do you need to start python programming?")
+    print("[4] - Python Basic Syntax")
+    print("[5] - Printing Output")
+    print("[6] - Python Comments")
+    print("[7] - Variables, Constants, and Data Types in Python")
+    print("[8] - basic Data Types in Python")
+    print("[9] - ARITHMETIC OPERATORS and EXPRESSIONS")
+    print("[10] - Basic Input and Output in Python")
+
+    category = input("Choose topic: ")
+    if category == "1":
+        print("Programming Language: A programming language is a special language that computers understand and use to perform tasks.")
+        print("Python is a widely-used programming language that was created by Guido van Rossum in 1991.")
+        print("A dutch software engineer best known for creating the Python programming language in 1991")
+        print("Python is a high-level, interpreted, and general-purpose programming language designed to be simple, readable, and easy to learn.")
+    elif category == "2":
+          print("--- why learn PYTHON? ---")
+          print("\n1. simple and easy to learn - Great for Beginners.")
+          print("2. Readable Syntax - code looks almost like english.")
+          print("3. Versatile - used in many fields (A.I, WED, automation, games, etc.)")
+          print("4. Huge Community - lots of support, toturials, and libries")
+    elif category == "3":
+          print("--- What do you need to start python programming? ---")
+          print("\nprofessional ides / code editors")
+          print("Pycharm (by jetBrains)")
+          print("VS code (Visual Studio Code)")
+          print("Jupyter Notebook / JupyterLab")
+    elif category == "4":
+          print("--- Python Basic Syntax ---")
+          print("\nwhat is PYTHON SYNTAX?")
+          print("Syntax refers to the set of rules that tells us how to correctly write a program in Python.")
+          print("\nPython syntax")
+          print("1. Python is Case-Sensitive Python treats uppercase and lowercase letters differently.")
+          print("2. Indentation Unlike other programming languages, Python uses indentation (spaces) to define blocks of code")
+    elif category == "5":
+          print("--- Printing Output ---")
+          print("\nPrint Statement")
+          print("The print() function displays information on the screen.")
+          print("print – the function that displays output.")
+          print("() – parentheses that contain the information to be displayed.")
+          print("value – the text, number, variable, or expression you want to show.")
+          print("\nPrinting Text")
+          print("Text (also called a string) must be enclosed in quotation marks.")
+          print("\nPrinting Numbers")
+          print("You can print numbers directly without quotation marks.")
+    elif category == "6":
+          print("--- Python Comments ---")
+          print("\nComments are ignored by Python.")
+          print("They are used to explain the code.")
+          print("Objectives by the end of this activity, you should be able to:")
+          print("Practice using the print() function. Display text, numbers, and formatted output")
+          print("Understand the difference between single quotes (' ') and double quotes (" ").")
+    elif category == "7":
+          print("--- Variables, Constants, and Data Types in Python ---")
+          print("\n1. what is variable?")
+          print("A variable is a named storage location used to keep data in a program.")
+          print("The value of a variable can change while the program is running.")
+          print("Example: a, b, c, age, name")
+          print("\nVARIABLE NAMING RULES:")
+          print("A variable can have a short name (like x and y)")
+          print("or a more descriptive name (age, carname, total_volume).")
+          print("A variable name must start with a letter or the underscore character.")
+          print("A variable name cannot start with a number.")
+          print("Variable names are case-sensitive")
+          print("(age and AGE are two different variables)")
+          print("\nAssigned value to variable")
+          print("In programming, we store data in variables.")
+          print("We assign a value to a variable using the = (assignment operator).")
+          print("\nOutput Variables")
+          print("The Python print() function is often used to output variables.")
+          print("In the print() function, you output multiple variables, separated by a comma:")
+          print("In the print() function, you output multiple variables, separated by a +:")
+    elif category == "8":
+          print("--- basic Data Types in Python ---")
+          print("\nDATA TYPES")
+          print("Data types are categories that tell Python what kind of data a variable stores.")
+          print("They determine the type of value a variable can hold and what operations can be performed on that value.")
+    elif category == "9":
+          print("--- ARITHMETIC OPERATORS and EXPRESSIONS ---")
+          print("\nwhat are arithmetic operators?")
+          print("Arithmetic operators are symbols used to perform mathematical calculations on numbers.")
+          print("They work the same way as the operators used in everyday mathematics.")
+          print("\nexpressions in python")
+          print("An expression is a combination of values, variables, and operators that evaluates to a result.")
+          print("Python follows the order of operations (PEMDAS):")
+    elif category == "10":
+          print("--- Basic Input and Output in Python ---")
+          print("\naccepting user input")
+          print("Purpose of input in programming Real-life analogies (e.g., asking for a user's name and responding)")
+          print("EX: Using input() function")
+          print("Syntax: variable = input('Prompt message:')")
+          print("All input is string type by default")
+          print("\nFormatting Output")
+          print("Using comma , in print():")
+          print("\nConverting Input to Other Data Types")
+          print("B. Float Input (for decimal numbers)")
+          print("C. Boolean Input (True or False using conditions)")
+          print("Example Program (Combining All)")
+    else:
+        print("Invalid input")
+        exit()
+
+elif topic == "2":
+    print("\nConditional Statements in Python ")
+    print("The Topic in mid term")
+    print("[1] - introduction to conditional statements")
+    print("[2] - Logical Operator")
+    print("[3] - What are Logical Operators?")
+    print("[4] - the AND operator")
+    print("[5] - truth table - AND")
+    print("[6] - the OR operator")
+    print("[7] - truth table - OR")
+    print("[8] - the NOT operator")
+    print("[9] - truth table - NOT")
+
+    category = input("Choose topic: ")
+    if category == "1":
+        print("A condition statement allows a program to make decisions based on whether a condition is true or false.")
+        print("\nRelational Operators")
+        print("Relational operators, also called comparison operators,")
+        print("are used to compare two values.")
+        print("the result is always either true or false.")
+        print("\nthe IF statement")
+        print("the IF stament executes a block of code only when a condition is true.")
+        print("\nthe IF-ELSE statement")
+        print("the ELSE statement  provides an alternative when the IF condition is false.")
+        print("\nthe IF-ELIF-ELSE statement")
+        print("The ELIF statement is used when there are multiple conditions to evaluate.")
+        print("Python checks each condition from top to bottom and executes the first condition that is True.")
+        print("\nnested conditon in python")
+        print("A nested condition is a condition inside another condition.")
+
+    elif category == "2":
+        print("--- Logical Operator ---")
+        print("\nLearning Objectives:")
+        print("1. Define logical operators in Python.")
+        print("2. Identify the three logical operators: and, or, and not")
+        print("3. Use logical operators with conditional statements.")
+        print("4. Combine multiple conditions in a Python program.")
+        print("5. Create simple real-life programs using logical operators.")
+
+    elif category == "3":
+        print("\nwhat are Logical operators")
+        print("Logical operators are used to combine or reverse conditions in a Python program.")
+        print("They are commonly used with if, elif, and else.")
+
+    elif category == "4":
+        print("--- the AND operator ---")
+        print("the AND operator returns TRUE only when ALL conditions are TRUE.")
+
+    elif category == "5":
+        print("--- truth table - AND ---")
+        print("\nin this topic easy to remember is AND - NEED ALWAYS TRUE")
+
+    elif category == "6":
+        print("--- the OR operator ---")
+        print("\nthe OR operator return TRUE when at least ONE condition is true.")
+
+    elif category == "7":
+        print("--- truth table - OR ---")
+        print("\nin this topic you need to remember is OR - ONLY ONE TRUE")
+
+    elif category == "8":
+        print("--- the NOT operator ---")
+        print("\nthe NOT operator reverses the result of a condition.")
+
+    elif category == "9":
+        print("--- truth table - NOT ---")
+        print("\nin this topic you need to remember is NOT - REVERSES THE RESULT")
+
+    else:
+        print("Invalid input")
+        exit()
+
+elif topic == "3":
+    print("\nIntroduction to Iteration and Loops")
+    print("The Topic in finals")
+    print("[1] - introduction to iteration")
+    print("[2] - types of loops in python")
+    print("[3] - python for loop")
+    print("[4] - For loop")
+    print("[5] - Python While loop")
+    print("[6] - repeating a program with WHILE LOOP")
+
+    category = input("Choose topic: ")
+    if category == "1":
+        print("--- introduction to iteration ---")
+        print("Iteration means repeating a process.")
+        print("In programming, it means repeatedly executing a set of instructions.")
+        print("Each repetition is called an iteration.")
+        print("\nIteration allows a program to perform the same task multiple times.")
+        print("Without a loop, instructions must be written repeatedly:")
+    elif category == "2":
+        print("--- types of loops in python ---")
+        print("python has two main types of loops: FOR and WHILE")
+        print("\nfor LOOP:")
+        print("Repeats instructions for each item in a sequence.")
+        print("Useful when the number of repetitions is known.")
+        print("\nfor WHILE:")
+        print("Repeats instructions while a condition is True.")
+        print("Useful when repetition depends on a condition.")
+    elif category == "3":
+        print("--- python for loop ---")
+        print("SYNTAX:")
+        print("for variable in sequence: statement(s)")
+        print("VARIABLE: receives each items")
+        print("SEQUENCE: items to loop through")
+        print("INTENDED STATEMENTS: the loop body")
+    elif category == "4":
+        print("--- For loop ---")
+        print("\nhow it works: print numbers 1 to 5")
+        print("1. range(1, 6) produces 1, 2, 3, 4, and 5.")
+        print("2. The start value 1 is included; the stop value 6 is excluded.")
+        print("3. Each iteration assigns the next value to number.")
+        print("4. print(number) displays that value. After 5, the loop ends.")
+        print("\ncounting downwards with range(): 5 to 1")
+        print("how it works:")
+        print("1. Start at 5.")
+        print("2. Stop before 0; the stop value is excluded.")
+        print("3. The step -1 decreases the value by 1 each iteration.")
+        print("4. print(number) displays 5, 4, 3, 2, and 1 on separate lines.")
+    elif category == "5":
+        print("--- Python While loop ---")
+        print("\nCondition: checked before each iteration")
+        print("Intended statement: run while the condition is TRUE")
+        print("count += 1 - increases count by 1 each iteration.")
+        print("when count becomes 6, the condition is false and the loop stops.")
+        print("\nCounting downward with a WHILE LOOP: 5 to 1")
+        print("1. start with number = 5")
+        print("2. repeat while number >= 1.")
+        print("3. print number, then decrease it by 1 using number -= 1.")
+        print("4. stop when number becomes 0 and the condition is FALSE.")
+    elif category == "6":
+        print("--- repeating a program with WHILE LOOP ---")
+        print("\n1. while true keeps the program repeating.")
+        print("2. enter a name to display a greeting.")
+        print("3. type X or x, then press enter. break stops the loop.")
+
+    else:
+        print("Invalid input")
+        exit()
+
+else:
+    print("WRONG CHOICE, please choose between 1 to 3 only")
+    exit()
